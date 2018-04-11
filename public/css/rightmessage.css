@@ -1,0 +1,43 @@
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.nimei {
+    position: relative;
+    overflow: hidden;
+    width: 290px;
+}
+
+.nimei ul {
+    list-style: none;
+}
+
+.number {
+    position: absolute;
+    /*top: 42px;*/
+    left: 1px;
+    z-index: 45;
+}
+
+.one {
+    background-color: #ff858e;
+}
+.two {
+    background-color: #77d549;
+}
+
+.three {
+    background-color: #62c1ff;
+}
+ ol.number li {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 14.5px;
+    color: #fff;
+    background-color: #979598;
+    list-style: none;
+}
